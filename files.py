@@ -7,17 +7,12 @@ st.subheader("Uploading files - csv/xlsx")
 
 df = st.file_uploader("Upload csv file:", type = ['csv','xlsx'])
     
-df1 = pd.read_csv("C:\PYTHON_DS\STREAMLIT\data.csv")
+df1 = pd.read_csv("data.csv")
 st.table(df1)
 
 
 # direcly with image-------------------------------------------------------------
 st.subheader("Uploading an image in our app")
-# st.image("C:/ANIME/TEAM7.jpg")
-
-# f = open("C:/PYTHON_DS/STREAMLIT/TEAM7.jpg",'rb')  # Corrected image path
-# image_path = f.read()
-# st.image(image_path)
 
 # users upload the image file------------------------------------------------------------------
 # and displaying the image
