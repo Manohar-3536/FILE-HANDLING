@@ -40,23 +40,4 @@ st.subheader("Audio Files")
 aud = st.file_uploader("Upload the Audio File:", type =['mp3','wav'])
 if aud is not None:
     st.audio(aud)# can also give aud.read() instead of aud
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
